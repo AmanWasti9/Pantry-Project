@@ -1,11 +1,10 @@
-import * as React from "react";
-import Grid from "@mui/material/Grid";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Snackbar from "@mui/material/Snackbar";
 
 export default function page() {
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     open: false,
     vertical: "top",
     horizontal: "center",
