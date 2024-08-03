@@ -546,7 +546,7 @@ export default function LogIn({ onSwitchToSignUp }) {
                 Submit
               </Button>
               <Button onClick={onSwitchToSignUp}>
-                Don't have an account? Sign Up
+                Don&apos;t have an account? Sign Up
               </Button>
             </Stack>
           </form>

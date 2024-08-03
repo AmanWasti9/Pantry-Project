@@ -936,7 +936,7 @@ import Paper from "@mui/material/Paper";
 import { doc, onSnapshot } from "firebase/firestore";
 import { firestore } from "../../../../firebase";
 import { getAuth } from "firebase/auth";
-import CircleProgress from "../CircleProgress/CircleProgress"; // Import the new CircleProgress component
+import CircleProgress from "../CircleProgress/CircleProgress";
 
 export default function DashboardPapers() {
   const [totalItems, setTotalItems] = useState(0);

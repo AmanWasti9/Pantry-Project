@@ -510,7 +510,7 @@ export default function Page({ userFirstName }) {
             marginBottom: 2,
           }}
         >
-          We’re excited to have you on board as you manage and explore your
+          We&apos;re excited to have you on board as you manage and explore your
           pantry like never before. With our intuitive platform, you can
           effortlessly store and organize your pantry items, and thanks to our
           integration with Gemini AI, you can now get personalized recipe
