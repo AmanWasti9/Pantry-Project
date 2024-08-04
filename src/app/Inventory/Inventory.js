@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { CiFilter } from "react-icons/ci";
 
-export default function Page() {
+export default function Inventory() {
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortOrder, setSortOrder] = useState("asc");
   const [filterType, setFilterType] = useState("quantity_asc"); // New state for filter type

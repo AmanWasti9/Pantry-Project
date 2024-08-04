@@ -391,7 +391,7 @@ const parseBoldText = (text) => {
   });
 };
 
-export default function Page({ userFirstName }) {
+export default function UserDashboard({ userFirstName }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [recipe, setRecipe] = useState("");
   const [pantryItems, setPantryItems] = useState([]);
