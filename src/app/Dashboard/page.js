@@ -582,7 +582,7 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import InventoryIcon from "@mui/icons-material/Inventory";
@@ -637,8 +637,6 @@ function ResponsiveDrawer(props) {
   const [isClosing, setIsClosing] = useState(false);
   const [open, setOpen] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const path = searchParams.get("path") || "/";
   const [itemName, setItemName] = useState("");
   const [pantry, setPantry] = useState([]);
   const [quantity, setQuantity] = useState(1); // Default quantity is 1
